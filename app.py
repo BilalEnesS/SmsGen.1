@@ -13,7 +13,7 @@ import re
 #ortalama bir istek 0.15dolar-> 0.5 Tl
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "your_api_key"
 def get_brand_info(url):
     """Web sitesinden marka bilgilerini çeker."""
     try:
